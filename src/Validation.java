@@ -1,8 +1,8 @@
 import java.util.TreeMap;
 
-public class CheckIf {
+public class Validation {
     TreeMap<Character, Integer> checkerKeyMap = new TreeMap<>();
-    public CheckIf() {
+    public Validation() {
         checkerKeyMap.put('I',1);
         checkerKeyMap.put('V', 5);
         checkerKeyMap.put('X', 10);

@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class ArabicRoman {
+public class NumericConverter {
 
     static int romanToArabic(String input) {
         String romanNumeral = input.toUpperCase();
