@@ -11,7 +11,7 @@ public class Validation {
         checkerKeyMap.put('D', 500);
         checkerKeyMap.put('M', 1000);
     }
-    public boolean zamnItsRoman(String number){
+    public boolean checkIfRoman(String number){
         return checkerKeyMap.containsKey(number.charAt(0));
     }
 }

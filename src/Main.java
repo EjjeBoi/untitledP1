@@ -21,9 +21,9 @@ public class Main {
             return;
         }
         Validation checker = new Validation();
-        if (checker.zamnItsRoman(dataSymbol[0]) == checker.zamnItsRoman(dataSymbol[2])) {
+        if (checker.checkIfRoman(dataSymbol[0]) == checker.checkIfRoman(dataSymbol[2])) {
             int firstNumber, secondNumber;
-            boolean zamnItsRoman = checker.zamnItsRoman(dataSymbol[0]);
+            boolean zamnItsRoman = checker.checkIfRoman(dataSymbol[0]);
             if (zamnItsRoman) {
                 firstNumber = NumericConverter.romanToArabic(dataSymbol[0]);
                 secondNumber = NumericConverter.romanToArabic(dataSymbol[2]); //System.out.println(Num1 + " " + Num2);
